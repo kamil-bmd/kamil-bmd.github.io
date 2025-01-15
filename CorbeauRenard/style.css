@@ -1,21 +1,18 @@
-/* Appliquer une marge horizontale au body */
 body {
     margin-left: 35%;
     margin-right: 35%;
     font-family: "Times New Roman", serif;
-    background-color: #f7f7f7; /* Couleur de fond clair */
+    background-color: #f7f7f7;
     text-align: center;
 }
 
-/* Style pour l'image */
 main img {
     display: block;
-    margin: 20px auto; /* Centrer l'image */
-    border: 1px solid #ccc; /* Bordure autour de l'image */
+    margin: 20px auto;
+    border: 1px solid #ccc;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Style pour le titre */
 h1 {
     font-size: 2em;
     font-weight: bold;
@@ -24,7 +21,6 @@ h1 {
     color: #000;
 }
 
-/* Conteneur de texte */
 main div {
     background-color: white;
     border: 1px solid #ddd;
@@ -32,17 +28,15 @@ main div {
     padding: 20px;
     margin-top: 20px;
     text-align: justify;
-    line-height: 1.8; /* Espacement entre les lignes */
+    line-height: 1.8;
 }
 
-/* Style pour le paragraphe */
 main p {
     font-size: 1.2em;
     margin: 0;
     color: #333;
 }
 
-/* Premier caractère en gras */
 main p b {
     font-size: 1.4em;
     font-weight: bold;

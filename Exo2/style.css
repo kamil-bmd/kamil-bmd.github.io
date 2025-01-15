@@ -1,0 +1,87 @@
+h1 {
+    font-family: 'Anton', sans-serif !important;
+    color: aliceblue;
+    margin: 0%;
+}
+
+header, footer {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* CENTRE */
+.divPrincipale {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.divPrincipale .divAvecLigne {
+    border-bottom: 2px solid rgb(35, 35, 35);
+    padding: 5px;
+}
+
+.divPrincipale h2 {
+    color: rgb(35, 35, 35);
+    margin: 0%;
+}
+
+.divPrincipale p {
+    font-size: 25px;
+}
+
+
+/* COTE DROIT ET GAUCHE */
+.divSecondaire {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(128, 128, 128);
+    padding: 20px;
+    font-size: 20px;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.divSecondaire .divAvecLigne {
+    border-bottom: 2px solid rgb(243, 243, 243);
+    padding: 5px;
+}
+
+.divSecondaire h2 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.liens-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.liens-container a {
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.liens-container a:hover {
+    background-color: rgba(61, 61, 61, 0.2);
+    color: #ffffff;
+}
