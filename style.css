@@ -1,0 +1,50 @@
+/* Appliquer une marge horizontale au body */
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: "Times New Roman", serif;
+    background-color: #f7f7f7; /* Couleur de fond clair */
+    text-align: center;
+}
+
+/* Style pour l'image */
+main img {
+    display: block;
+    margin: 20px auto; /* Centrer l'image */
+    border: 1px solid #ccc; /* Bordure autour de l'image */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour le titre */
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+    color: #000;
+}
+
+/* Conteneur de texte */
+main div {
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.8; /* Espacement entre les lignes */
+}
+
+/* Style pour le paragraphe */
+main p {
+    font-size: 1.2em;
+    margin: 0;
+    color: #333;
+}
+
+/* Premier caractère en gras */
+main p b {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #000;
+}
