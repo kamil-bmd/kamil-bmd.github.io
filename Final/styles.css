@@ -1,4 +1,3 @@
-/* Styles généraux */
 body {
     font-family: 'JetBrains Mono', monospace;
     margin: 0;
@@ -7,7 +6,7 @@ body {
     color: #4D4D4D;
 }
 
-/* Header */
+/* header */
 header {
     background-color: #C0DE99;
     padding: 20px;
@@ -23,7 +22,7 @@ header h1 {
     margin: 0;
 }
 
-/* Titres */
+/* les titres */
 h1, h2, h3 {
     font-family: 'Jersey 25', sans-serif;
     color: #C0DE99;
@@ -33,10 +32,10 @@ h1, h2, h3 {
 .bio {
     font-family: 'Jersey 25', sans-serif;
     color: #C0DE99;
-    text-align: center; /* Centrer le texte */
+    text-align: center;
 }
 
-/* Sections */
+/* les sections */
 section {
     padding: 40px;
     margin: 20px;
@@ -45,7 +44,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Section intro */
+/* intro */
 .intro {
     text-align: center;
     padding: 50px;
@@ -59,7 +58,7 @@ section {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Formations */
+/* les formations */
 .education-item {
     margin: 15px 0;
     padding: 15px;
@@ -72,7 +71,7 @@ section {
     color: #4CAF50;
 }
 
-/* Expérience et compétences */
+/* les experiences */
 .experience-item, .skills-item {
     margin: 15px 0;
     padding: 15px;
@@ -80,35 +79,34 @@ section {
     border-radius: 5px;
 }
 
-/* Styles généraux pour les badges */
+/* badges */
 .badge {
-    display: inline-block; /* Permet au badge de s'afficher à côté du texte */
-    padding: 4px 8px; /* Rembourrage autour du texte du badge */
-    border-radius: 12px; /* Coins arrondis pour le badge */
-    font-size: 14px; /* Taille de la police du badge */
-    font-weight: bold; /* Gras pour le texte du badge */
-    color: white; /* Couleur du texte */
-    margin-right: 10px; /* Espacement entre le badge et le titre */
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold; 
+    color: white; 
+    margin-right: 10px; 
 }
 
-/* Styles spécifiques pour chaque type de badge */
 .badge.stage {
-    background-color: #4CAF50; /* Couleur pour les stages */
+    background-color: #4CAF50;
 }
 
 .badge.project {
-    background-color: #2196F3; /* Couleur pour les projets */
+    background-color: #2196F3;
 }
 
 .badge.work {
-    background-color: #FF9800; /* Couleur pour le travail */
+    background-color: #FF9800;
 }
 
 .badge.diplome {
-    background-color: #C0DE99; /* Couleur pour le travail */
+    background-color: #C0DE99;
 }
 
-/* Liste des compétences */
+/* compétences */
 ul {
     list-style-type: none;
     padding: 0;
@@ -121,7 +119,7 @@ ul li {
     border-radius: 5px;
 }
 
-/* Langues */
+/* langues */
 #languages {
     display: flex;
     flex-direction: column;
@@ -161,7 +159,7 @@ ul li {
     }
 }
 
-/* Centres d'intérêt */
+/* intérêt */
 #interests ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -176,7 +174,7 @@ ul li {
     border-radius: 8px;
 }
 
-/* Liens */
+/* liens */
 a {
     color: #4D4D4D;
     text-decoration: none;
@@ -187,7 +185,6 @@ a:hover {
     color: #C0DE99;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
