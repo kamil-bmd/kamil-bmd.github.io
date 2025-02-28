@@ -1,0 +1,196 @@
+/* Styles généraux */
+body {
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFCF2;
+    color: #4D4D4D;
+}
+
+/* Header */
+header {
+    background-color: #C0DE99;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+header h1 {
+    font-family: 'Jersey 25', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Titres */
+h1, h2, h3 {
+    font-family: 'Jersey 25', sans-serif;
+    color: #C0DE99;
+    text-align: start;
+}
+
+.bio {
+    font-family: 'Jersey 25', sans-serif;
+    color: #C0DE99;
+    text-align: center; /* Centrer le texte */
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section intro */
+.intro {
+    text-align: center;
+    padding: 50px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.intro img {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Formations */
+.education-item {
+    margin: 15px 0;
+    padding: 15px;
+    background: #F1F1F1;
+    border-radius: 5px;
+}
+
+.diploma {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+/* Expérience et compétences */
+.experience-item, .skills-item {
+    margin: 15px 0;
+    padding: 15px;
+    background: #F1F1F1;
+    border-radius: 5px;
+}
+
+/* Styles généraux pour les badges */
+.badge {
+    display: inline-block; /* Permet au badge de s'afficher à côté du texte */
+    padding: 4px 8px; /* Rembourrage autour du texte du badge */
+    border-radius: 12px; /* Coins arrondis pour le badge */
+    font-size: 14px; /* Taille de la police du badge */
+    font-weight: bold; /* Gras pour le texte du badge */
+    color: white; /* Couleur du texte */
+    margin-right: 10px; /* Espacement entre le badge et le titre */
+}
+
+/* Styles spécifiques pour chaque type de badge */
+.badge.stage {
+    background-color: #4CAF50; /* Couleur pour les stages */
+}
+
+.badge.project {
+    background-color: #2196F3; /* Couleur pour les projets */
+}
+
+.badge.work {
+    background-color: #FF9800; /* Couleur pour le travail */
+}
+
+.badge.diplome {
+    background-color: #C0DE99; /* Couleur pour le travail */
+}
+
+/* Liste des compétences */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #E9ECEF;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Langues */
+#languages {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.languages-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.language-item {
+    text-align: center;
+    font-size: 18px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #C0DE99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4D4D4D;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .language-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Centres d'intérêt */
+#interests ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 0;
+    text-align: center;
+}
+
+#interests li {
+    background: #E9ECEF;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Liens */
+a {
+    color: #4D4D4D;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #C0DE99;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #C0DE99;
+    color: #4D4D4D;
+}
